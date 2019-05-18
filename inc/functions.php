@@ -52,7 +52,7 @@ function load_wx_sticks_nav($sticks) {
 function get_location_wx_data($id, $sticks) {
 	$id = (int)$id;
 	$ftp_server = "ftp.lakana.com";
-	$pass = "Zi8bPspCRsvWKkdmNK4D";
+	$pass = "password";
 	$user = "nxs-wpritv-weathersticks";
 	$ftp_conn = ftp_connect($ftp_server) or die("Couldn't connect to $ftp_server"); 
 
